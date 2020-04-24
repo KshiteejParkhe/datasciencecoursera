@@ -44,7 +44,6 @@ cacheSolve <- function(x, ...) {
 }
 
 
-
 Test_matrix <- matrix(c(2,4,6,8), nrow = 2, ncol = 2)
 Test <- makeCacheMatrix(Test_matrix)
 cacheSolve(Test)
